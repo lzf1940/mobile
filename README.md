@@ -90,7 +90,7 @@ government-mp-base
 │  ├─ store                 // vuex
 │  │  ├─ index.js
 │  │  └─ modules            // 业务对应vuex模块
-│  │     ├─ common.js          // 业务vuex（根据业务需求卸载 modules文件夹下）
+│  │     ├─ common.js          // 业务vuex（根据业务需求写在 modules文件夹下）
 │  │     └─ user.js
 │  ├─ utils                 // 通用功能文件夹
 │  │  ├─ localstorage.js       // 本地存储
