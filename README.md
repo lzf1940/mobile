@@ -53,7 +53,7 @@ government-mp-base
 ├─ public
 │  ├─ favicon.ico
 │  └─ index.html          // 入口页面
-├─ README.md              // 新目说明
+├─ README.md              // 项目说明
 ├─ src
 │  ├─ App.vue             //  入口文件
 │  ├─ assets              //  资源文件
