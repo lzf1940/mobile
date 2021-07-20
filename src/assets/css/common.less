@@ -1,0 +1,173 @@
+/********** 自定义全局样式 *********/
+.blueColor{
+    color: #1666FF;
+}
+.marginTop10{
+    margin-top: 10px;
+}
+.marginBottom10{
+    margin-bottom: 10px;
+}
+.jianBianBg{
+    background: #619BFF; /* Old browsers */
+    background: -moz-linear-gradient(135deg,  #619BFF 0%, #0157FF 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(135deg,  #619BFF 0%,#0157FF 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #619BFF 0%,#0157FF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#619BFF', endColorstr='#0157FF',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.myNavBar.van-tabbar--fixed{
+    z-index: 99;
+}
+
+/***************头样式修改***************/
+.navBarCls.van-hairline--bottom::after{
+    border: 0;
+}
+.navBarCls.van-nav-bar{
+    background: #1666FF;
+}
+.navBarCls .van-nav-bar__title{
+    color: white;
+}
+
+/**************首页-搜索页面共通的样式*****************/
+.commonModel .van-cell {
+    padding: 10px 16px 10px 0;
+}
+.commonTitle{
+    display: inline-block;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 12px;
+}
+.commonTitle:before{
+    content: '';
+    position: absolute;
+    background: #1666FF;
+    top: 2px;
+    left: 0;
+    width: 3px;
+    height: 80%;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#619bff+0,0157ff+100 */
+    background: #619bff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #619bff 0%, #0157ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #619bff 0%,#0157ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #619bff 0%,#0157ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#619bff', endColorstr='#0157ff',GradientType=0 ); /* IE6-9 */
+}
+
+/***************** 首页和工作台 *****************/
+.projectMenu .van-grid-item__content{
+    padding: 0 3px 10px;
+}
+.projectMenu{
+    background: #FFFFFF;
+    padding-top: 15px;
+}
+.projectMenu .itemImg{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.projectMenu .itemTitle{
+    font-size: 1.2rem;
+}
+
+/************ 骨架屏样式--以首页的骨架作为参考 *********/
+/* 头部，主菜单区域--骨架屏 */
+.skeleton0{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    .blockDiv{
+        text-align: center;
+        .van-skeleton{
+            .van-skeleton__content{
+                width: 60px;
+            }
+            .van-skeleton__row{
+                height: 50px;
+            }
+            .van-skeleton__title{
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+/* 头部，功能菜单区域--骨架屏 */
+.skeleton1 {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .van-skeleton {
+        display: inline-block;
+        width: 20%;
+        margin: 0;
+        padding: 0 8px;
+        .van-skeleton__content {
+          width: 60px;
+        }
+        .van-skeleton__row {
+          height: 60px;
+          margin: 10px 0;
+        }
+    }
+}
+/* 通知公告模块--骨架屏 */
+.skeleton2 {
+    background: white;
+    padding-bottom: 10px;
+    .van-skeleton{
+        padding: 0 16px 10px;
+        .van-skeleton__avatar--round{
+            position: relative;
+            top: 5px;
+        }
+    }
+}
+/* 通知公告模块--骨架屏 */
+.skeleton3 {
+    background: white;
+    padding-top: 10px;
+    .van-skeleton__avatar{
+        position: relative;
+        top: 6px;
+    }
+    .van-skeleton__avatar + .van-skeleton__content{
+        padding: 5px 0;
+    }
+    .van-skeleton{
+        padding: 0 16px 10px;
+        .van-skeleton__avatar{
+            width: 100px;
+            height: 63px;
+        }
+    }
+    .van-skeleton__title + .van-skeleton__row{
+        margin-top: 8px;
+    }
+    .van-skeleton__row:not(:first-child){
+        margin-top: 8px;
+    }
+}
+/* 关注园区--骨架屏 */
+.skeleton4{
+    .van-skeleton {
+        .van-skeleton__row {
+            height: 80px;
+        }
+    }
+}
+/* 新闻/政策/企业/项目--骨架屏 */
+.skeletonImg .van-skeleton__title{
+    width: 100%;
+    height: 95px;
+}
+

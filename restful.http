@@ -1,0 +1,33 @@
+GET https://nanjing-service.z7z7z7.cn/government-server-gongye/open/worktable/myapps?ts=1624499228868
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTU5NzI2NTgsInVzZXJfbmFtZSI6IjE1ODUwNTI1NjExIiwianRpIjoiMDgwYjRiNGQtMGQ4YS00YjYyLWI3Y2QtZWI4MDdmOWUyNzcyIiwicGhvbmVObyI6IjE1ODUwNTI1NjExIiwiY2xpZW50X2lkIjoiZTcyNTkzNzJmZWY5NDU2Mjk5Yzg4ZjkyZjdmYmMxNTEiLCJzY29wZSI6WyJ1c2VyX2luZm8iXX0.RX7tICoeizhM5TSMFC49Zy9B4l001q-5WHF1r3rqYLE
+# ###
+# POST https://www.pkslow.com/user HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "larry",
+#     "age": 18
+# }
+
+# //正常Get请求
+# GET https://example.com/comments/1
+
+# //Post请求 Json格式提交
+# POST https://example.com/comments  
+# User-Agent: rest-client
+# Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+# Content-Type: application/json
+
+# {
+#     "name": "sample",
+#     "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+# }
+
+# //Post请求表单提交
+# POST https://api.example.com/login 
+# Content-Type: application/x-www-form-urlencoded
+
+# name=foo
+# &password=bar
+
+# /*特别注意，参数和标头必须有空一行，否则会报错的*/
